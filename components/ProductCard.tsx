@@ -19,7 +19,7 @@ const ProductCard = (props: ProductCardProps) => {
             loader={({src}) => src}
             fill
             quality={100}
-            style={{objectFit: "cover"}}
+            style={{ objectFit: 'cover' }}
           />
         )}
       </div>
